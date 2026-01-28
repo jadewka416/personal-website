@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SilverImmunity</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400;0,500;0,800;1,400;1,500;1,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+    <a href="index.html" class="logo">Jade</a>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Projects ▾</a>
+                <div class="dropdown-content">
+                    <a href="ux-ui.html">UX/UI Design</a>
+                    <a href="data-analytics.html">Data Analytics</a>
+                    <a href="cx.html">CX/Customer Experience</a>
+                </div>
+            </li>
+            <li><a href="contact.html" class="contact-btn">Contact</a></li>
+        </ul>
+    </nav>
+
+<header class="gfc-hero">
+    <div class="hero-title-wrapper">
+        <h1 class="hero-title">SilverImmunity</h1>
+    </div>
+
+    <div class="gfc-hero-card" id="SilverImmunity">
+        <div class="pdf-container">
+    <iframe 
+        src="SilverImmunity.pdf#view=Fit&navpanes=0&scrollbar=0" 
+        class="pdf-frame" 
+        allowfullscreen>
+    </iframe>
+    </div>
+    </div>
+</header>
+
+<main class="case-study-container">
+    
+    <section class="summary-section">
+        <div class="back-container">
+            <a href="cx.html" class="back-link">← Back to CX/Customer Experience Projects</a>
+        </div>
+        <h2 class="summary-title">Summary</h2>
+        
+        <div class="summary-grid">
+            <div class="summary-left">
+                <div class="content-block">
+                    <h3>Mission</h3>
+                    <p>SilverImmunity is an awarded project at Microsoft HK JobHack Hackathon 2021. The core mission of SilverImmunity is to "Unlock the power of technology for the Elderly". It aims to provide essential healthcare information and support to senior citizens, who are particularly vulnerable to health crises like COVID-19 due to higher fatality rates and existing health conditions. The project seeks to bridge the digital divide, enabling the elderly to access hygiene practices, medical support, and daily necessities safely through technology.</p>
+                </div>
+
+                <div class="content-block">
+                    <h3>Development process</h3>
+                    <p>The project followed a structured development lifecycle:
+
+Research and Problem Identification: I identified that while the elderly are the most vulnerable, they often lack proper hygiene knowledge and face difficulties using complex digital tools.
+
+Technological Integration: The solution leverages Azure Cognitive Services, specifically utilizing the LUIS (Language Understanding) API to power a conversational AI (Chatbot).
+
+Implementation Phases: The development timeline was estimated at 5–6 months with a team of four experts. The process involved building an AI capable of understanding natural language to simplify user interactions.
+
+Operational Planning: Beyond technical development, the process included planning for 24/7 technical support and collaborating with NGO partners to provide social worker assistance.</p>
+                </div>
+            </div>
+
+            <div class="summary-right">
+                <div class="content-block">
+                    <h3>Target audience</h3>
+                    <p>Primary Users: Elderly individuals in Hong Kong, particularly those aged 70 or older, who require healthcare support and information.<br>
+
+Secondary Users: Disabled individuals and patients with chronic illnesses who share similar vulnerabilities.<br>
+
+Support Network: NGO partners and committed volunteers who assist in recruiting users and providing manual help for services like online grocery ordering.</p>
+                </div>
+
+                <div class="content-block">
+                    <h3>Main Focuses</h3>
+                    <ul class="services-list">
+                        <li>UX/UI Design</li>
+                        <li>Customer Experience</li>
+                        <li>User Journey</li>
+                        <li>User Pain Points</li>
+                        <li>Azure</li>
+                        <li>Accessibility</li>
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ja16" target="_blank" class="linkedin">
+        <img src="linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/jadekka" target="_blank" class="github">
+        <img src="github.svg" alt="GitHub">
+      </a>
+      <a href="mailto:jade.wk.au@gmail.com" class="email">
+        <img src="email.svg" alt="Email">
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

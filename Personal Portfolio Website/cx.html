@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jade Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400;0,500;0,800;1,400;1,500;1,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+    <a href="index.html" class="logo">Jade</a>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Projects ▾</a>
+                <div class="dropdown-content">
+                    <a href="ux-ui.html">UX/UI Design</a>
+                    <a href="data-analytics.html">Data Analytics</a>
+                    <a href="cx.html">CX/Customer Experience</a>
+                </div>
+            </li>
+            <li><a href="contact.html" class="contact-btn">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="ux-hero">
+  <div class="ux-hero-container">
+    <h1>CX/Customer Experience</h1>
+    <p>View my past Customer Experience projects.</p>
+  </div>
+</section>
+
+<section class="featured-work">
+  <h2 class="section-header">Featured Work</h2>
+
+  <div class="project-grid">
+    <a href="SilverImmunity.html" class="project-link">
+    <div class="project-card">
+      <div class="thumbnail-container bg-blue">
+        <img src="SilverImmunity.png" alt="SilverImmunity">
+      </div>
+      <div class="project-info">
+        <div>
+          <h3>SilverImmunity</h3>
+          <p>Second Runner Up Group Project at Microsoft HK</p>
+        </div>
+        <div class="arrow">→</div>
+      </div>
+    </div>
+    </a>
+
+    <a href="hfc.html" class="project-link">
+    <div class="project-card">
+      <div class="thumbnail-container bg-yellow">
+        <img src="hfc.svg" alt="HFC Assist">
+      </div>
+      <div class="project-info">
+        <div>
+          <h3>HFC Assist</h3>
+          <p>US/CA Crossboarder fundraising event</p>
+        </div>
+        <div class="arrow">→</div>
+      </div>
+    </div>
+    </a>
+
+    <a href="os.html" class="project-link">
+    <div class="project-card">
+      <div class="thumbnail-container bg-pink">
+        <img src="os.png" alt="October Saves">
+      </div>
+      <div class="project-info">
+        <div>
+          <h3>October Saves</h3>
+          <p>US/CA Crossboarder fundraising event</p>
+        </div>
+        <div class="arrow">→</div>
+      </div>
+    </div>
+    </a>
+  </div>
+</section>
+
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ja16" target="_blank" class="linkedin">
+        <img src="linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/jadekka" target="_blank" class="github">
+        <img src="github.svg" alt="GitHub">
+      </a>
+      <a href="mailto:jade.wk.au@gmail.com" class="email">
+        <img src="email.svg" alt="Email">
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
