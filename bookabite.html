@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookabite</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400;0,500;0,800;1,400;1,500;1,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+    <a href="index.html" class="logo">Jade</a>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Projects ▾</a>
+                <div class="dropdown-content">
+                    <a href="ux-ui.html">UX/UI Design</a>
+                    <a href="data-analytics.html">Data Analytics</a>
+                    <a href="cx.html">CX/Customer Experience</a>
+                </div>
+            </li>
+            <li><a href="contact.html" class="contact-btn">Contact</a></li>
+        </ul>
+    </nav>
+
+<header class="gfc-hero">
+    <div class="hero-title-wrapper">
+        <h1 class="hero-title">Bookabite</h1>
+    </div>
+
+    <div class="gfc-hero-card" id="bookabite">
+        <img src="bookabite.svg" alt="Bookabite">
+    </div>
+</header>
+
+<main class="case-study-container">
+    
+    <section class="summary-section">
+        <div class="back-container">
+            <a href="ux-ui.html" class="back-link">← Back to UX/UI Projects</a>
+        </div>
+        <h2 class="summary-title">Summary</h2>
+        
+        <div class="summary-grid">
+            <div class="summary-left">
+                <div class="content-block">
+                    <h3>Mission</h3>
+                    <p>Bookabite is a high-fidelity mobile app prototype created for people with special dietary requirements or assistance. By implementing filters with different dietary requirements or catering needs to search for restaurants and catering services, it eases user pain point in unable to find restaurants that serve their needs and provide suitable assistance. </p>
+                </div>
+
+                <div class="content-block">
+                    <h3>Development process</h3>
+                    <p>I identified there is a lack of inclusive platform to make custom requests at restaurants, and how it creates frustration in customers with special needs to dine at any local restaurants. E.g. a person with reduced mobility would likely have issues with entering restaurant without accessible pathway or assistance, that greatly reduced their choice of dining at any local restaurants. Therefore, I implemented different filters to search for restaurants that match their dietary requirements and custom needs. </p>
+                </div>
+            </div>
+
+            <div class="summary-right">
+                <div class="content-block">
+                    <h3>Target audience</h3>
+                    <p>People with special dietary needs and require additional assistance</p>
+                </div>
+
+                <div class="content-block">
+                    <h3>Main Focuses</h3>
+                    <ul class="services-list">
+                        <li>UX/UI Design</li>
+                        <li>User Journey</li>
+                        <li>User Pain Points</li>
+                        <li>Accessibility</li>
+                        <li>inclusiveness</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ja16" target="_blank" class="linkedin">
+        <img src="linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/jadekka" target="_blank" class="github">
+        <img src="github.svg" alt="GitHub">
+      </a>
+      <a href="mailto:jade.wk.au@gmail.com" class="email">
+        <img src="email.svg" alt="Email">
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
